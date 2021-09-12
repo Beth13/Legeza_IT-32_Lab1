@@ -1,0 +1,107 @@
+
+.titles{
+	width: 140px;
+	float: left;
+}
+
+form{
+display: flex;
+flex-direction: column;
+border: white 10px solid;
+width: 60%;
+margin: 0 auto;
+margin-bottom: 50px;
+margin-top: 50px;
+border-radius: 20px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,textarea{
+	border-radius: 5px;
+    border:white;
+	width: 170px;
+    padding: 10px;
+    margin: 7px;
+}
+
+#submit{
+	height: 50px;
+	float: right;
+    background:  #7CE0F6;
+    margin: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+
+
+#submit:hover{
+    background-color: #53BED6;
+}
+
+h2{
+	text-align: center;
+    padding-bottom: 25px;
+}
+
+
+/* -----------------TABLE--------------- */
+
+/* table {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 0 auto;
+    align-items: center;
+    width: 75%; 
+    background: white; 
+    color: white;
+    border-spacing: 5px; 
+    border-radius: 7px;
+   } */
+   /* td, th {
+    background:#53BED6;
+    padding: 5px; 
+   } */
+
+   table{
+    white-space: nowrap;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    display: block;
+    overflow-x: auto;
+    }
+
+  table th, table td{
+    text-align: center;
+    padding: 15px;
+       
+  }
+  
+  table thead th{
+    text-align: center;  
+    background-color:#809C9D;
+    color: white;
+    width: 5%;  
+       
+  }
+  
+  table tr{
+    background: #f5f5f5;
+  }
+
+
+  table tr:hover{
+  background-color:#53BED6;
+  }
+
+  table td:not(:last-child){
+  border-right: 3px solid #809C9D;
+  }
+
